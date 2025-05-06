@@ -40,10 +40,10 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"credentials": [
-			"dist/credentials/OpenAIApi.credentials.js"
+			"dist/credentials/OpenAiApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/OpenAIImageGenerator/OpenAIImageGenerator.node.js"
+			"dist/nodes/OpenAiImageGenerator/OpenAiImageGenerator.node.js"
 		]
 	},
 	"devDependencies": {

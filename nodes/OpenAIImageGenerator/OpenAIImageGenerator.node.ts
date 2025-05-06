@@ -8,11 +8,11 @@ import {
 	IRequestOptions,
 } from 'n8n-workflow';
 
-export class OpenAIImageGenerator implements INodeType {
+export class OpenAiImageGenerator implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'OpenAI Image Generator',
 		name: 'openAiImageGenerator',
-		icon: 'file:openai.svg',
+		icon: 'file:image.svg',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',

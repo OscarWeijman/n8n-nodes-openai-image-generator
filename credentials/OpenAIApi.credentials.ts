@@ -1,9 +1,6 @@
-import {
-	ICredentialType,
-	INodeProperties,
-} from 'n8n-workflow';
+import { ICredentialType, INodeProperties } from 'n8n-workflow';
 
-export class OpenAIApi implements ICredentialType {
+export class OpenAiApi implements ICredentialType {
 	name = 'openAIApi';
 	displayName = 'OpenAI API';
 	documentationUrl = 'https://platform.openai.com/docs/api-reference/authentication';
