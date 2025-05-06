@@ -11,8 +11,8 @@ import {
 export class OpenAIImageGenerator implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'OpenAI Image Generator',
-		name: 'openAIImageGenerator',
-		icon: 'file:image.svg',
+		name: 'openAiImageGenerator',
+		icon: 'file:openai.svg',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
@@ -105,12 +105,12 @@ export class OpenAIImageGenerator implements INodeType {
 						value: '1792x1024',
 					},
 					{
-						name: '512x512',
-						value: '512x512',
-					},
-					{
 						name: '256x256',
 						value: '256x256',
+					},
+					{
+						name: '512x512',
+						value: '512x512',
 					},
 				],
 				default: '1024x1024',
@@ -246,12 +246,12 @@ export class OpenAIImageGenerator implements INodeType {
 						value: '1024x1024',
 					},
 					{
-						name: '512x512',
-						value: '512x512',
-					},
-					{
 						name: '256x256',
 						value: '256x256',
+					},
+					{
+						name: '512x512',
+						value: '512x512',
 					},
 				],
 				default: '1024x1024',
